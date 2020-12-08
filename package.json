@@ -210,6 +210,6 @@
     "setup-mssql": "env-cmd $npm_package_options_env_cmd ./scripts/setup-mssql",
     "semantic-release": "semantic-release",
     "lerna:publish": "lerna publish --conventional-commits --yes --skip-npm",
-    "postlerna:publish": "lerna run publish:custom",
+    "postlerna:publish": "lerna run publish:custom"
   }
 }
